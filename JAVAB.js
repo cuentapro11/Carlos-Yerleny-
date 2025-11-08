@@ -351,7 +351,7 @@ function openLocation(location) {
 }
 
 function suggestMusic() {
-    const whatsappMessage = "¡Hola! Me gustaría sugerir una canción para la playlist de la boda de Rafael y Juana 🎵";
+    const whatsappMessage = "¡Hola! Me gustaría sugerir una canción para la playlist de la boda de Carlos y Yerlyn 🎵";
     const whatsappUrl = `https://wa.me/8295197737?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 }
@@ -455,6 +455,7 @@ function showToast(title, message) {
     clearCaches();
   }
 })();
+
 
 
 
