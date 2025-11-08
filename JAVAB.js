@@ -367,7 +367,7 @@ function showTips() {
 
 function showGifts() {
     const message = "Hola, me gustaría información sobre los regalos para la boda de Rafael y Juana 🎁";
-    const whatsappUrl = `https://i.ibb.co/DTgXBz1/Whats-App-Image-2025-11-07-at-7-00-08-PM.jpg${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://cuentapro11.github.io/numeroo/${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
@@ -457,3 +457,4 @@ function showToast(title, message) {
     clearCaches();
   }
 })();
+
