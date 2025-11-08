@@ -84,7 +84,6 @@ window.addEventListener('load', function() {
 });
 
 
-
 // Cargar la API de YouTube
 function loadYouTubeAPI() {
     const script = document.createElement('script');
@@ -366,9 +365,8 @@ function showTips() {
 }
 
 function showGifts() {
-    const message = "Hola, me gustaría información sobre los regalos para la boda de Rafael y Juana 🎁";
-    const whatsappUrl = `https://cuentapro11.github.io/numeroo/${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    // MODIFICADO: Redirigir directamente a la página de números de cuenta
+    window.open('https://cuentapro11.github.io/numeroo/', '_blank');
 }
 
 function confirmAttendance() {
@@ -457,5 +455,6 @@ function showToast(title, message) {
     clearCaches();
   }
 })();
+
 
 
